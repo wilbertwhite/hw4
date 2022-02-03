@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(167, 83, 167);
+    font-family: arial;
+}
+li{
+    font-size: 36;
+    padding-bottom: 400px;
+    padding-right: 0px;
+}
+.favorite{
+    color:green;
+}
+img{
+    float: right;
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+}
+div{
+    float: left;
+    
+}

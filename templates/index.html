@@ -1,0 +1,25 @@
+<html>
+    <link rel="stylesheet" href="/static/style.css">
+    <body>
+        <ol>
+            {% for i in range(0, len) %}
+                {% if shows[i] == "Bojack" %}
+                    <li class = "favorite">
+                        <div>
+                            {{shows[i]}}
+                        </div> 
+                        <a href = ""><img src="{{photos[i]}}"/></a>
+                    </li>
+                {% else %}
+                    <li>
+                        <div>
+                            {{shows[i]}}
+                        </div>
+                        <a href = ""><img src="{{photos[i]}}"/></a>
+                    </li>
+                {% endif %}
+                
+            {% endfor %}
+        </ol>
+    </body>
+</html>
